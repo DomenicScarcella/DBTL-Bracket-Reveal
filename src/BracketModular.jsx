@@ -18,10 +18,9 @@ export function BracketModular() {
 
     function BracketCol(arr, L_R, round) {
         return (
-            <div className="single-col">
-                
+            <div className={"single-col"}>
                 <div
-                    className="col-name"
+                    className={"col-name"}
                     id={
                         (prevClick.slice(0, 4) == round.slice(0, 4))
                         ? ""
@@ -59,14 +58,13 @@ export function BracketModular() {
                         )
                     })
                 }
-                <></>
             </div>
         )
     }
 
     function FeaturedWrestler() {
         return (
-            <div className="featured-wrestler">
+            <div className={"featured-wrestler"}>
                 <img
                     className={"featured-image " + prevClick} 
                     id={
@@ -104,26 +102,31 @@ export function BracketModular() {
     }
 
     return (
-        <div className="bracket-modular">
-            <div style={{ marginLeft: "1.5vw" }}>
+        <div className={"bracket-modular"}>
+            <div id={"top-brackets"} style={{ zIndex: "1"}} />
+            <div id={"bottom-brackets"} style={{ zIndex: "1"}} />
+            <div id={"mid-brackets"} style={{ zIndex: "1"}} />
+            <div id={"final-brackets"} style={{ zIndex: "1"}} />
+
+            <div style={{ marginLeft: "1.5vw", zIndex: "3" }}>
                 {BracketCol(Rd1L, "L", "Openers")}
             </div>
-            <div style={{ marginLeft: "-7.5vw" }}>
+            <div style={{ marginLeft: "-7.5vw", zIndex: "3" }}>
                 {BracketCol(Rd2L, "L", "Semifinals")}
             </div>
-            <div style={{ marginLeft: "-7.5vw" }}>
+            <div style={{ marginLeft: "-7.5vw", zIndex: "3" }}>
                 {BracketCol(Rd3L, "L", "Finals")}
             </div>
-            <div>
+            <div style={{ zIndex: "2" }}>
                 {FeaturedWrestler()}
             </div>
-            <div style={{ marginRight: "-7.5vw" }}>
+            <div style={{ marginRight: "-7.5vw", zIndex: "3" }}>
                 {BracketCol(Rd3R, "R", "Finals")}
             </div>
-            <div style={{ marginRight: "-7.5vw" }}>
+            <div style={{ marginRight: "-7.5vw", zIndex: "3" }}>
                 {BracketCol(Rd2R, "R", "Semifinals")}
             </div>
-            <div style={{ marginRight: "1.5vw" }}>
+            <div style={{ marginRight: "1.5vw", zIndex: "3" }}>
                 {BracketCol(Rd1R, "R", "Openers")}
             </div>
         </div>

@@ -12,6 +12,48 @@
     justify-content: space-around;
 }
 
+#top-brackets {
+    width: 68vw;
+    height: 15vh;
+    position: absolute;
+    top: 7.5vh;
+    left: 13.5vw;
+    border-left: .5vw solid #7f7f7f;
+    border-right: .5vw solid #7f7f7f;
+}
+
+#bottom-brackets {
+    width: 68vw;
+    height: 15vh;
+    position: absolute;
+    top: 37.5vh;
+    left: 13.5vw;
+    border-left: .5vw solid #7f7f7f;
+    border-right: .5vw solid #7f7f7f;
+}
+
+#mid-brackets {
+    width: 53vw;
+    height: 30vh;
+    position: absolute;
+    top: 15vh;
+    left: 21vw;
+    border-left: .5vw solid #7f7f7f;
+    border-right: .5vw solid #7f7f7f;
+}
+
+#final-brackets {
+    width: 38vw;
+    height: 22.625vh;
+    position: absolute;
+    top: 30vh;
+    left: 28.5vw;
+    border-left: .5vw solid #7f7f7f;
+    border-right: .5vw solid #7f7f7f;
+    border-bottom: .5vw solid #7f7f7f;
+    border-radius: 0 0 2vw 2vw;
+}
+
 .featured-wrestler {
     width: 33vw;
     height: 58vh;
@@ -23,14 +65,13 @@
 .featured-image {
     width: 37vw;
     height: auto;
-    margin-top: 1vh;
+    margin-top: 0vh;
     margin-left: -1.1vw;
-    box-shadow: -0.9vw 6vw 0 -2vw #000000;
 }
 
 #wwelogo {
+    margin-top: -1vh;
     margin-left: -2vw;
-    box-shadow: 0 6vw 0 -2vw #000000;
 }
 
 .single-col {
@@ -74,17 +115,22 @@
 }
 
 .champ-item {
-    width: 33vw;
+    width: 36vw;
     height: auto;
-    min-height: 8.25vh;
+    min-height: 12vh;
     text-align: center;
     font-family: sans-serif;
     font-size: 5.5vh;
     font-weight: 600;
     background-color: #7f7f7f;
+    position: absolute;
+    top: 46.75vh;
     padding: auto 1vw;
     margin: auto;
+    margin-top: -0.25vh;
+    margin-left: -1.5vw;
     border: .25vw solid #000000;
+    border-radius: 3.5vw;
 }
 
 .hide {
@@ -98,6 +144,7 @@
 
 .L {
     border-color: #bfbfbf #bfbfbf #3f3f3f #3f3f3f;
+    border-radius: 0 3vw 3vw 0;
 }
 
 .L:active {
@@ -106,6 +153,7 @@
 
 .R {
     border-color: #bfbfbf #3f3f3f #3f3f3f #bfbfbf;
+    border-radius: 3vw 0 0 3vw;
 }
 
 .R:active {
@@ -116,6 +164,10 @@
     border-color: #bfbfbf #7f7f7f #3f3f3f #7f7f7f;
 }
 
+.C:active {
+    border-color: #3f3f3f #7f7f7f #bfbfbf #7f7f7f;
+}
+
 #now-L {
     width: 18vw;
     min-height: 6vh;
@@ -123,7 +175,6 @@
     font-size: 3vh;
     background-color: #ffffDf;
     text-shadow: -.075vh .125vh #000000;
-    /* box-shadow: -0.75vh 0.5vh 1.25vh #000000; */
     padding-left: 1vw;
     padding-right: 1vw;
 }
@@ -135,20 +186,18 @@
     font-size: 3vh;
     background-color: #ffffdf;
     text-shadow: .075vh .125vh #000000;
-    /* box-shadow: .75vh 0.5vh 1.25vh #000000; */
     padding-left: 1vw;
     padding-right: 1vw;
     margin-left: -3vw;
 }
 
 #now-C {
-    width: 33vw;
-    min-Height: 8.25vh;
+    width: 36vw;
+    min-Height: 12vh;
     color: #8f0000;
     font-size: 5.5vh;
     background-color: #ffffdf;
-    text-shadow: 0 .125vh #000000;
-    /* box-shadow: .0vh 0.5vh 1.25vh #000000; */
+    text-shadow: 0 .1875vh .125vh #000000;
     padding-left: 1vw;
     padding-right: 1vw;
 }
