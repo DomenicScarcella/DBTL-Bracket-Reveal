@@ -6,7 +6,7 @@ import "./BracketModular.css";
 export function BracketModular() {
     const [now, setNow] = useState("WWE logo");
     const [photo, setPhoto] = useState(wwelogo);
-    const [prevClick, setPrevClick] = useState("");
+    const [prevClick, setPrevClick] = useState("None yet");
 
     const clearFeaturedWrestler = () => {
         setPhoto(wwelogo); setNow("WWE logo");
@@ -19,7 +19,17 @@ export function BracketModular() {
     function BracketCol(arr, L_R, round) {
         return (
             <div className="single-col">
-                {/* <h2 className="col-name">{round}</h2> */}
+                
+                <div
+                    className="col-name"
+                    id={
+                        (prevClick.slice(0, 4) == round.slice(0, 4))
+                        ? ""
+                        : "no-show"
+                    }
+                >
+                    {round}
+                </div>
                 {
                     arr.map(item => {
                         const i = item.name[0];
@@ -95,7 +105,7 @@ export function BracketModular() {
 
     return (
         <div className="bracket-modular">
-            <div style={{ marginLeft: "1vw" }}>
+            <div style={{ marginLeft: "1.5vw" }}>
                 {BracketCol(Rd1L, "L", "Openers")}
             </div>
             <div style={{ marginLeft: "-7.5vw" }}>
@@ -113,7 +123,7 @@ export function BracketModular() {
             <div style={{ marginRight: "-7.5vw" }}>
                 {BracketCol(Rd2R, "R", "Semifinals")}
             </div>
-            <div style={{ marginRight: "1vw" }}>
+            <div style={{ marginRight: "1.5vw" }}>
                 {BracketCol(Rd1R, "R", "Openers")}
             </div>
         </div>
