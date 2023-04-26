@@ -20,7 +20,7 @@ export function BracketModular() {
         return (
             <div className={"single-col"}>
                 <div
-                    className={"col-name"}
+                    className={"col-name " + L_R+round}
                     id={
                         (prevClick.slice(0, 4) == round.slice(0, 4))
                         ? ""

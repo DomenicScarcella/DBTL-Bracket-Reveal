@@ -99,6 +99,30 @@
     margin-bottom: -3.5vh;
 }
 
+.LOpeners {
+    text-align: left;
+}
+
+.LSemifinals {
+    text-align: center;
+}
+
+.LFinals {
+    text-align: right;
+}
+
+.ROpeners {
+    text-align: right;
+}
+
+.RSemifinals {
+    text-align: center;
+}
+
+.RFinals {
+    text-align: left;
+}
+
 #no-show {
     visibility: hidden;
 }
