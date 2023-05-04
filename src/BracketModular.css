@@ -55,7 +55,7 @@
 }
 
 .featured-wrestler {
-    width: 33vw;
+    width: 48vw;
     height: 58vh;
     display: flex;
     flex-direction: column;
@@ -82,7 +82,7 @@
 }
 
 .single-col {
-    width: 15vw;
+    width: 7.5vw;
     height: 60vh;
     display: flex;
     flex-direction: column;
@@ -187,6 +187,8 @@
 .R {
     border-color: #bfbfbf #3f3f3f #3f3f3f #bfbfbf;
     border-radius: 3vw 0 0 3vw;
+    margin-left: -7.5vw;
+
 }
 
 .R:active {
@@ -221,7 +223,7 @@
     text-shadow: .075vh .125vh #000000;
     padding-left: 1vw;
     padding-right: 1vw;
-    margin-left: -3vw;
+    margin-left: -10.5vw;
 }
 
 #now-C {

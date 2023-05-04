@@ -111,19 +111,19 @@ export function BracketModular() {
             <div style={{ marginLeft: "1.5vw", zIndex: "6" }}>
                 {BracketCol(Rd1L, "L", "Openers")}
             </div>
-            <div style={{ marginLeft: "-7.5vw", zIndex: "5" }}>
+            <div style={{ zIndex: "5" }}>
                 {BracketCol(Rd2L, "L", "Semifinals")}
             </div>
-            <div style={{ marginLeft: "-7.5vw", zIndex: "4" }}>
+            <div style={{ zIndex: "4" }}>
                 {BracketCol(Rd3L, "L", "Finals")}
             </div>
             <div style={{ zIndex: "2" }}>
                 {FeaturedWrestler()}
             </div>
-            <div style={{ marginRight: "-7.5vw", zIndex: "4" }}>
+            <div style={{ zIndex: "4" }}>
                 {BracketCol(Rd3R, "R", "Finals")}
             </div>
-            <div style={{ marginRight: "-7.5vw", zIndex: "5" }}>
+            <div style={{ zIndex: "5" }}>
                 {BracketCol(Rd2R, "R", "Semifinals")}
             </div>
             <div style={{ marginRight: "1.5vw", zIndex: "6" }}>
