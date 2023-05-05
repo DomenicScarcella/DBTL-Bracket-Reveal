@@ -80,7 +80,7 @@
 }
 
 .col-name {
-    width: 100%;
+    width: 15vw;
     height: auto;
     color: #000000;
     text-align: center;
@@ -107,14 +107,17 @@
 
 .ROpeners {
     text-align: right;
+    margin-left: -7.5vw;
 }
 
 .RSemifinals {
     text-align: center;
+    margin-left: -7.5vw;
 }
 
 .RFinals {
     text-align: left;
+    margin-left: -7.5vw;
 }
 
 #no-show {
