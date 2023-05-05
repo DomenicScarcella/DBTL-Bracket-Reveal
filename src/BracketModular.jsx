@@ -102,7 +102,7 @@ export function BracketModular() {
     }
 
     return (
-        <div className={"bracket-modular"}>
+        <div className="bracket-init">
             <div id={"top-brackets"} style={{ zIndex: "1"}} />
             <div id={"bottom-brackets"} style={{ zIndex: "1"}} />
             <div id={"mid-brackets"} style={{ zIndex: "1"}} />

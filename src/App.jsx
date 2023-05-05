@@ -3,14 +3,16 @@ import "./App.css";
 
 export function App() {
   return (
-    <div style={{ backgroundColor: "#efefef", height: "99vh" }}>
+    <div>
       <div className="header">
         <h1 style={{ color: "#00008f" }}>#DontBuryTheLead</h1>
-        <h1 style={{ color: "#8f0000" }}>SPECIAL:</h1>
+        <h1 style={{ color: "#8f0000" }}>RECAP:</h1>
       </div>
-      <BracketModular />
+      <div className="modular">
+        <BracketModular />
+      </div>
       <div className="footer">
-        <h1>Who Would Win a Shoot Fight?</h1>
+        <h1>WWE Backlash - May 6, 2023</h1>
       </div>
     </div>
   )
