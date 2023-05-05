@@ -103,32 +103,20 @@ export function BracketModular() {
 
     return (
         <div className="bracket-init">
-            <div id={"top-brackets"} style={{ zIndex: "1"}} />
-            <div id={"bottom-brackets"} style={{ zIndex: "1"}} />
-            <div id={"mid-brackets"} style={{ zIndex: "1"}} />
-            <div id={"final-brackets"} style={{ zIndex: "1"}} />
+            <div id={"top-brackets"} />
+            <div id={"bottom-brackets"} />
+            <div id={"mid-brackets"} />
+            <div id={"final-brackets"} />
 
-            <div style={{ marginLeft: "1.5vw" }}>
-                {BracketCol(Rd1L, "L", "Openers")}
-            </div>
-            <div>
-                {BracketCol(Rd2L, "L", "Semifinals")}
-            </div>
-            <div>
-                {BracketCol(Rd3L, "L", "Finals")}
-            </div>
-            <div>
-                {FeaturedWrestler()}
-            </div>
-            <div>
-                {BracketCol(Rd3R, "R", "Finals")}
-            </div>
-            <div>
-                {BracketCol(Rd2R, "R", "Semifinals")}
-            </div>
-            <div style={{ marginRight: "1.5vw" }}>
-                {BracketCol(Rd1R, "R", "Openers")}
-            </div>
+            { BracketCol(Rd1L, "L", "Openers") }
+            { BracketCol(Rd2L, "L", "Semifinals") }
+            { BracketCol(Rd3L, "L", "Finals") }
+
+            { FeaturedWrestler() }
+
+            { BracketCol(Rd3R, "R", "Finals") }
+            { BracketCol(Rd2R, "R", "Semifinals") }
+            { BracketCol(Rd1R, "R", "Openers") }
         </div>
     )
 }
