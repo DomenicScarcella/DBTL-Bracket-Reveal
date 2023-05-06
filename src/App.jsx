@@ -1,6 +1,6 @@
+// import { useState } from "react";
 import { BracketModular } from "./Bracket/BracketModular";
 import "./App.css";
-// import { useState } from "react";
 
 export function App() {
   // const [head, setHead] = useState("RECAP");
