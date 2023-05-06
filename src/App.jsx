@@ -1,9 +1,9 @@
 import { BracketModular } from "./Bracket/BracketModular";
 import "./App.css";
-import { useState } from "react";
+// import { useState } from "react";
 
 export function App() {
-  const [head, setHead] = useState("RECAP");
+  // const [head, setHead] = useState("RECAP");
 
   // function NavHead() {
   //   return (
@@ -48,7 +48,7 @@ export function App() {
     <div>
       <div className="header">
         <h1>#DontBuryTheLead</h1>
-        <h1>{head}:</h1>
+        <h1>RECAP:</h1>
       </div>
       <div className="modular">
         <BracketModular />
