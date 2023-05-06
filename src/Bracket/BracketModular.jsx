@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Rd1L, Rd1R, Rd2L, Rd2R, Rd3L, Rd3R, champ } from "./dataBracket.js";
-import wwelogo from "../common_art/wwelogo.png";
+import wwelogo from "../art_common/wwelogo.png";
 import "./BracketModular.css";
 
 export function BracketModular() {
