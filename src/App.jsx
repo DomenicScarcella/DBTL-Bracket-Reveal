@@ -1,4 +1,4 @@
-import { BracketModular } from "./BracketModular.jsx";
+import { BracketModular } from "./Bracket/BracketModular";
 import "./App.css";
 
 export function App() {

@@ -1,4 +1,4 @@
-import * as bp from "./art/bracketphotos/bp-index.js";
+import * as bp from "./bracketphotos/bp-index.js";
 
 const a1 = {name: "1. Roman Reigns", ph: bp.ROMAN, see: "hide"};
 const a2 = {name: "2. Gunther", ph: bp.GUNTHER, see: "hide"};

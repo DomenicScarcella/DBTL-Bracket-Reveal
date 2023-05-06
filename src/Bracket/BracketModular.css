@@ -204,8 +204,6 @@
     font-size: 3vh;
     background-color: #ffffDf;
     text-shadow: -.075vh .125vh #000000;
-    padding-left: 1vw;
-    padding-right: 1vw;
 }
 
 #now-R {
@@ -215,8 +213,6 @@
     font-size: 3vh;
     background-color: #ffffdf;
     text-shadow: .075vh .125vh #000000;
-    padding-left: 1vw;
-    padding-right: 1vw;
     margin-left: -10.5vw;
 }
 
