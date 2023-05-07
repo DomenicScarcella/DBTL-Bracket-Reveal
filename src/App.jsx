@@ -48,14 +48,14 @@ export function App() {
     <div>
       <div className="header">
         <h1>#DontBuryTheLead</h1>
-        <h1>RECAP:</h1>
+        <h1>SPECIAL:</h1>
       </div>
       <div className="modular">
         <BracketModular />
       </div>
       <div className="footer">
-        <h1>WWE Backlash - May 6, 2023</h1>
-        {/* <h1>Who Would Win a Real Fight?</h1> */}
+        {/* <h1>WWE SmackDown - May 12, 2023</h1> */}
+        <h1>Who Would Win a Real Fight?</h1>
         {/* <div className="navblock">
           <NavHead />
 
